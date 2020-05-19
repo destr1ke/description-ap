@@ -1,33 +1,155 @@
 .App {
   text-align: center;
+  display:grid;
+  grid-template-areas: 
+  "header header"
+  "nav description";
+  grid-template-rows: 50px 1fr;
+  grid-template-columns: 20% 1fr;
+  grid-gap: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.header {
+  grid-area: header;
+  background-color: #4a76a8;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  z-index: 10;
+  text-align: left;
+  color:white;
+}
+.nav {
+  position: fixed;
+  top:8.7%;
+  grid-area: nav;
+  padding: 1%;
+  text-align: left;
+}
+.horizontal-line {
+  margin-top:10px;
+  height: 1px;
+  width: 19.5vw;
+  background-color:rgba(0,0,0,.12);
+  position: absolute;
+}
+.div-link {
+  margin: 20px 0;
+}
+.nav a {
+  text-decoration: none;
+  cursor: pointer;
+  color:black;
+  padding: 2%;
+  display: block;
+}
+.nav a:hover {
+  background-color: #b3d4fc;
+  color: #000;
+  text-shadow: none;
+}
+.description {
+  grid-area: description;
+  text-align: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+.POST {
+  background-color: #64b5f6;
+  border-radius: 14px;
+  display: inline-flex;
+  line-height: 20px;
+  max-width: 100%;
+  outline: none;
+  overflow: hidden;
+  padding: 5px 10px;
+  position: relative;
+  color:white;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.vertical-line {
+    height: 170vh;
+    width: 1px;
+    background-color:rgba(0,0,0,.12);
+    position: absolute;
+}
+.content {
+  padding: 1%;
+}
+.table {
+  padding:1% 2%;
+  display: grid;
+  grid-template-areas: 
+  "name type description";
+  grid-template-columns: 3fr 2fr 10fr;
+}
+.table span {
+  display: block;
+  font-weight: 600;
+}
+.table .name {
+  grid-area: name;
+}
+.table .description {
+  grid-area: description;
+}
+.table .type {
+  grid-area:type;
+}
+span .required {
+  display: inline;
+  color:red;
+}
+.description span {
+  font-weight: 300;
+}
+.name span {
+  font-weight: 600;
+}
+.request{
+  padding:1% 2%;
+}
+.response{
+  padding:0 2%;}
+.request span{
+  padding: 10px;
+  line-height: 30px;
+  font-size: 16px;
+  margin: 0;
+  border-radius: 4px;
+  background: #41444e!important;
+  font-family: monospace;
+  font-weight: 600;
+  color: #fff!important;
+}
+.request .link ,.response .link{
+  padding: 10px;
+  line-height: 25px;
+  font-size: 16px;
+  margin: 0;
+  border-radius: 4px;
+  background: #41444e!important;
+  font-family: monospace;
+  font-weight: 600;
+  color: #fff!important;
+  white-space: pre;
+}
+h1{
+  margin:0;
+  font-size: 23px;
+  font-weight: 500;
+}
+p{
+  margin:0;
+  padding:1% 0;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +157,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
