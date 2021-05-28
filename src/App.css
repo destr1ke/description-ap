@@ -69,6 +69,7 @@
 }
 
 .content {
+  margin-top: 10px;
   padding: 1%;
   border-left: 2px solid rgba(0,0,0,.12);
 }

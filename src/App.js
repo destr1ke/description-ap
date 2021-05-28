@@ -24,8 +24,8 @@ function App() {
      
       <div className="description">
           <div className="content">
-            <h1>Respiratory virus activity</h1>
-            <span className="POST" id="rva-indoor">POST</span>/rva-indoor
+            <h1 id="rva-indoor">Respiratory virus activity</h1>
+            <span className="POST">POST</span>/rva-indoor
             <div className="table">
                 <div className="name">
                   <h1>Name</h1>
@@ -165,8 +165,8 @@ function App() {
           </div>
 
           <div className="content">
-            <h1>Cardiovascular risk</h1>
-            <span className="POST" id="cvs-indoor">POST</span>/cvs-indoor
+            <h1 id="cvs-indoor">Cardiovascular risk</h1>
+            <span className="POST">POST</span>/cvs-indoor
             <div className="table">
                 <div className="name">
                   <h1>Name</h1>
@@ -236,8 +236,8 @@ function App() {
           </div>
 
           <div className="content">
-            <h1>Allergy risk</h1>
-            <span className="POST" id="allergy">POST</span>/allergy
+            <h1 id="allergy">Allergy risk</h1>
+            <span className="POST">POST</span>/allergy
             <div className="table">
                 <div className="name">
                   <h1>Name</h1>
@@ -310,8 +310,8 @@ function App() {
           </div>
 
           <div className="content">
-            <h1>Brain risk</h1>
-            <span className="POST" id="brain">POST</span>/brain
+            <h1 id="brain">Brain risk</h1>
+            <span className="POST">POST</span>/brain
             <div className="table">
                 <div className="name">
                   <h1>Name</h1>
@@ -381,8 +381,8 @@ function App() {
           </div>
 
           <div className="content">
-            <h1>Mental risk</h1>
-            <span className="POST" id="mental">POST</span>/mental
+            <h1 id="mental">Mental risk</h1>
+            <span className="POST">POST</span>/mental
             <div className="table">
                 <div className="name">
                   <h1>Name</h1>
@@ -455,8 +455,8 @@ function App() {
           </div>
 
           <div className="content">
-            <h1>Respiratory risk</h1>
-            <span className="POST" id="respiratory">POST</span>/respiratory
+            <h1 id="respiratory">Respiratory risk</h1>
+            <span className="POST">POST</span>/respiratory
             <div className="table">
                 <div className="name">
                   <h1>Name</h1>
@@ -533,8 +533,8 @@ function App() {
 
 
           <div className="content">
-            <h1>Sensorial risk</h1>
-            <span className="POST" id="sensorial">POST</span>/sensorial
+            <h1 id="sensorial">Sensorial risk</h1>
+            <span className="POST">POST</span>/sensorial
             <div className="table">
                 <div className="name">
                   <h1>Name</h1>
@@ -595,8 +595,8 @@ function App() {
           </div>
          
           <div className="content">
-            <h1>Productivity risk</h1>
-            <span className="POST" id="productivity">POST</span>/productivity
+            <h1  id="productivity">Productivity risk</h1>
+            <span className="POST">POST</span>/productivity
             <div className="table">
                 <div className="name">
                   <h1>Name</h1>
